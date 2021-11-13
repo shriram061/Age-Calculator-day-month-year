@@ -1,0 +1,146 @@
+*
+{
+    margin: 0;
+    padding:0;
+    font-family: 'Varela Round', sans-serif;
+    background-color: yellow;
+}
+
+main
+{
+    color: white;
+    background-color: black;
+
+}
+#first
+{
+    padding: 0vh 5vw 5vh 5vw;
+    
+    
+}
+#h5
+{
+    
+    display: flex;
+    justify-content: center;
+}
+h4{
+    padding: 10px;
+    font-size: larger;
+   color: rgb(248, 244, 1);
+   background-color:rgba(11,13,48,255);
+   
+}
+#first
+{
+    
+    /* margin: 0 15vw 0 15vw; */
+    background-color:white;
+}
+#ps
+{
+    background-color:rgba(11,13,48,255);
+}
+#box1
+{
+    display:flex;
+    justify-content: center;
+    /* margin: 0 15vw 0 15vw; */
+    
+}
+#but1
+{
+    padding: 20px;
+    background-color:yellow;
+    color: black;
+    border-radius: 50px;
+    font-size: larger;
+}
+#but1:hover
+{
+    background-color:red;
+    color: rgba(11,13,48,255);
+    cursor: pointer;
+}
+#dob:hover
+{
+    background-color: red;
+    color: white;
+    cursor:grabbing
+}
+#ans1
+{
+    font-size: 30px;
+    color: red;
+    /* color: rgba(11,13,48,255); */
+}
+#ans1:hover{
+   cursor: crosshair;
+}
+h1{
+    background-color: rgb(248, 244, 1);
+}
+header
+{
+    display: flex;
+    justify-content: center;
+    /* padding: 3vw; */
+    background-color: rgb(232, 248, 1);
+    border-style: none;
+
+    
+}
+#sp
+{
+    display: flex;
+    justify-content: center;
+    padding: 2vh 2vw;
+    background-color: rgba(11,13,48,255);
+    border-style: none;
+}
+.ps
+{
+    display: flex;
+    justify-content: center;
+    padding: 3vh 3vw;
+    background-color: rgba(11,13,48,255);
+    border-style: none;
+}
+footer
+{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(12, 248, 12);
+}
+div{
+    background-color: rgb(13, 185, 228);
+  animation: mymoved 1s infinite;
+}
+@keyframes mymoved {
+    from {background-color: black;}
+    to {background-color: black;}
+  }
+textarea
+{
+  background: rgba(11,13,48,255);
+  animation: mymove 3s infinite;
+}
+@keyframes mymove {
+    from {background-color: rgba(11,13,48,255);}
+    to {background-color: rgb(115, 255, 0);}
+}
+#reset1
+{
+    padding: 20px;
+    background-color:yellow;
+    color: black;
+    border-radius: 50px;
+    font-size: larger;
+}
+#reset1:hover{
+    background-color:orange;
+}
+#dob
+{
+    padding: 2px;
+}
